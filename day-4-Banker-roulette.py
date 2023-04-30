@@ -6,4 +6,4 @@ names = names_string.split(", ")
 # 🚨 Don't change the code above 👆
 
 #Write your code below this line 👇
-print(f"{names[random.randint(0,len(names))]} is going to buy the meal today!")
+print(f"{names[random.randint(0,len(names)-1)]} is going to buy the meal today!")
