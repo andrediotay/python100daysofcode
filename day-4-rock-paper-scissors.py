@@ -28,20 +28,11 @@ scissors = """
     ---.__(___)
     """
 win_map = [["draw","lose","win"],["win","draw","lose"],["lost","win","draw"]]
+image_list = [rock,paper,scissors]
 
-if p_choice == 0:
-    print(rock)
-elif p_choice == 1:
-    print(paper)
-else:
-    print(scissors)
+print(image_list[p_choice])
 
 print(f"Computer chose:")
-if c_choice == 0:
-    print(rock)
-elif c_choice == 1:
-    print(paper)
-else:
-    print(scissors)
+print(image_list[c_choice])
 
 print(f"You {win_map[p_choice][c_choice]}.")
