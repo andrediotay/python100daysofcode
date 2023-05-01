@@ -36,3 +36,4 @@ print(f"Computer chose:")
 print(image_list[c_choice])
 
 print(f"You {win_map[p_choice][c_choice]}.")
+#improved
